@@ -1,0 +1,21 @@
+body{
+    background-color:bisque;
+}
+
+#w-full{
+    width: 100%!important; 
+}
+
+
+.video-player-1 {
+	width: 432px;
+	height: 238px;
+	background: #e6e6e6;
+	border-color: #7a7a7a;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#NoLink{
+    text-decoration: none;
+}
