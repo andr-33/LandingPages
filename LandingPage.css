@@ -16,6 +16,11 @@ body{
 	border-style: solid;
 }
 
-#NoLink{
+.NoLink{
     text-decoration: none;
+}
+
+.avatar{
+	width: 110px;
+	height: 107px;
 }
