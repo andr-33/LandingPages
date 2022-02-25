@@ -1,11 +1,15 @@
 body{
-    background-color:#EBEDF2;
+    background-color: #FBFFF1;
 }
 
-#w-full{
+.w-full{
     width: 100%!important; 
 }
 
+#StyleLogoArea{
+	background-color: #3A0CA3;
+	color: white;
+}
 
 .video-player-1 {
 	width: 432px;
@@ -27,7 +31,7 @@ body{
 }
 
 .MarginVideoStyle{
-	background-color: #6E30F2;
+	background-color: #191716;
 	border-radius: 21px 21px 21px 21px;
 	width: 70%; 
 	height: 400px;  
