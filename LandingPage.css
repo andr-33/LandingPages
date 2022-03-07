@@ -24,9 +24,14 @@ body{
 	border-style: solid;
 }
 
-.NoLink{
+.NoLink-W{
     text-decoration: none;
 	color: white;
+}
+
+.NoLink-B{
+    text-decoration: none;
+	color: #191716;
 }
 
 .avatar{
@@ -48,7 +53,7 @@ body{
 	border-radius: 10px 10px 10px 10px;
 }
 
-p{
+a,p{
 	font-family: 'Lato', sans-serif;
 }
 

@@ -20,15 +20,14 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">YouTube</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Instagram</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">TikTok</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Nosotros</a></li>
+          <li><a href="#YT" class="nav-link px-2 text-white">YouTube</a></li>
+          <li><a href="#RS" class="nav-link px-2 text-white">Instagram</a></li>
+          <li><a href="#RS" class="nav-link px-2 text-white">TikTok</a></li>
+          <li><a href="#NE" class="nav-link px-2 text-white">Nosotros</a></li>
         </ul>
 
         <div class="text-end">
-          <button style="background-color: #FFB800;" type="button" class="btn">Contactanos</button>
+          <button onClick="document.getElementById('Con').scrollIntoView();" style="background-color: #FFB800;" type="button" class="btn">Contactanos</button>
         </div>
       </div>
     </div>
@@ -47,20 +46,20 @@
 <!--Fin area del logo--> 
 
 <!--Area de YouTube-->
-    <div class="w-full" style="padding-top: 1.5rem; padding-bottom: 1.5rem;">
+    <div id="YT" class="w-full" style="padding-top: 5rem; padding-bottom: 5rem;">
       <div style="border-radius: 15px 15px 15px 15px;" class="col-xxl-8 py-5 container">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <video  class="d-block mx-lg-auto" autoplay loop width="500" height="300" muted controls>
-              <source src="./videos/WhatsApp Video 2022-02-23 at 21.23.48.mp4" type="video/webm" />
-            </video>
+            <iframe width= "700px" height="394px" src="https://www.youtube.com/embed/wETd8KDT2qE" title="YouTube NN" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              <!--h= w*0.5625-->
+            </iframe>
           </div>
           <div style="padding-left: 3rem; padding-top: 4rem;"  class="col-lg-6">
             <h2 class="display-5 fw-bold lh-1 mb-3">YouTube <i class="bi bi-youtube"></i></h2>
             <p class="lead">Descripción del canal y algo que poner...</p>
-          </div>
-          <div style="padding-left: 3rem;" class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a role="button" class="btn btn-outline-danger" aria-disabled="true" style="text-decoration: none;" href="https://m.youtube.com/channel/UC_h14e1yoj0yTUUYUu7c9Bg">Suscribete</a>
+            <div style="padding-left: 3rem;" class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a role="button" class="btn btn-outline-danger" aria-disabled="true" style="text-decoration: none;" href="https://m.youtube.com/channel/UC_h14e1yoj0yTUUYUu7c9Bg">Suscribete</a>
+            </div>  
           </div>
         </div>
       </div>  
@@ -68,13 +67,13 @@
 <!--Fin del area de Youtube-->
 
 <!--Div padre Ig y Tiktok-->
-      <div style="width: 100%;" class="d-md-flex flex-md-equal my-md-3 ps-md-3">
+      <div id="RS" class="d-md-flex flex-md-equal my-md-3 ps-md-3 w-full">
         <!--Instagram area-->
         <div class="me-md-3 pt-md-5 px-md-5 text-center text-white overflow-hidden CardStyle">
 
           <div class="my-3 py-3">
             <h2 class="display-4">Instagram <i class="bi bi-instagram"></i></h2>
-            <a href="https://instagram.com/nexusnoticias?utm_medium=copy_link" class="lead NoLink">@nexusnoticias</a>
+            <a href="https://instagram.com/nexusnoticias?utm_medium=copy_link" class="lead NoLink-W">@nexusnoticias</a>
           </div>
 
           <div class="MarginVideoStyle shadow-sm mx-auto overflow-hidden">
@@ -87,7 +86,7 @@
 
           <div class="my-3 py-3">
             <h2 class="display-4">Tik Tok <i class="bi bi-tiktok"></i></h2>
-            <a href="https://vm.tiktok.com/ZMLSCurop/" class="lead NoLink">@nexusnoticias</a>
+            <a href="https://vm.tiktok.com/ZMLSCurop/" class="lead NoLink-W">@nexusnoticias</a>
           </div>
 
           <div class="MarginVideoStyle shadow-sm mx-auto overflow-hidden">
@@ -100,7 +99,7 @@
       </div>
 
 <!--Area de perfiles-->
-      <h2 class="display-5 fw-bold text-center">Nuestro equipo</h2>
+      <h2 id="NE" class="display-5 fw-bold text-center">Nuestro equipo</h2>
 
       <div class="row row-cols-1 row-cols-md-3 g-4 text-center"> 
         <!--#1-->
@@ -108,7 +107,7 @@
           <img src="./images/Bosco_H.jpeg" class="bd-placeholder-img rounded-circle SizeProfilPhoto" alt="Foto de perfil"> 
           <h4 class="fw-bold">Bosco Hernández</h4>
           <p>Redacción y presentación</p>
-          <div style="color: black; width: 65%; " class="badge text-wrap">
+          <div style="color: #191716; width: 65%; " class="badge text-wrap">
             <p class="fw-light lh-sm fs14"> Redactor en el Diario de Navarra desde junio del 2021 hasta la actualidad.Interés en periodismo local e internacional, y en información deportiva. 
               <a class="text-muted" href="https://www.linkedin.com/in/bosco-hern%C3%A1ndez-bba453208"><i class="bi bi-linkedin"></i></a>
             </p>
@@ -117,10 +116,12 @@
         <!--#2-->
         <div class="col-lg-4">
           <img src="./images/Isabel_O.jpeg" class="bd-placeholder-img rounded-circle SizeProfilPhoto" alt="Foto de perfil"> 
-          <h4 class="fw-bold">Isabel Ortiz <a class="text-muted" href="https://www.linkedin.com/in/isabel-ortiz-caballeros-a03270148"><i class="bi bi-linkedin"></i></a></h4>
+          <h4 class="fw-bold">Isabel Ortiz <a class="text-muted" href="https://www.linkedin.com/in/isabel-ortiz-caballeros-a03270148"><i style="color: #191716;" class="bi bi-linkedin"></i></a></h4>
           <p class="fst-italic">Producción</p>
-          <div style="color: black; width: 65%; " class="badge text-wrap">
-            <p class="fw-light lh-sm fs14">  Editora y communication manager en la plataforma Tenet Ideas desde marzo 2020. Interés en periodismo investigativo y producción periodística.
+          <div style="color: #191716; width: 220px; " class="badge text-wrap">
+            <p class="fw-light lh-sm fs14">  
+              Editora y communication manager en la plataforma Tenet Ideas desde marzo 2020. 
+              Interés en periodismo investigativo y producción periodística.
             </p>
           </div>
         </div>
@@ -128,7 +129,7 @@
         <div class="col-lg-4">
          <figure>
           <img src="./images/Danna_V.jpeg" class="bd-placeholder-img rounded-circle SizeProfilPhoto" alt="Foto de perfil"> 
-          <h4 class="fw-bold">Danna Varela</h4>
+          <h4 class="fw-bold"><a class="NoLink-B" href="https://www.linkedin.com/in/danna-varela-a4a06122b">Danna Varela</a></h4>
           <p class="fs-5">Diseño de arte y producción digital</p>
           <figcaption>
             <div style="color: black; width: 65%; " class="badge text-wrap">
@@ -177,7 +178,7 @@
       </div>
 
 <!--Area footer-->
-      <div style="background-color: #191716; color: white; margin-bottom: -1rem;" class="w-full">
+      <div id="Con" style="background-color: #191716; color: white; margin-bottom: -1rem;" class="w-full">
           <h2 class="display-5 fw-bold text-center">Contactos</h2>
       </div>
 
