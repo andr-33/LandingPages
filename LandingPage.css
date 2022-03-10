@@ -61,12 +61,6 @@ h2,h3,h4{
 	font-family: 'Lato',sans-serif;
 }
 
-figcaption{
-	text-align: center;
-	margin: auto;
-	color: #7a7a7a;
-}
-
 .SizeProfilPhoto{
 	width: 150px;
 	height: 150px;
@@ -76,7 +70,48 @@ figcaption{
 	font-size: 14px;
 }
 .ImageSize{
+	display: block;
     width: 300px;
     height: 300px;
+	border-radius: 25px 25px 25px 25px;
 }
 
+.ColSize{
+	width: 320px;
+	padding-bottom: 1rem;
+}
+
+.ImageContainer{
+	position: relative;
+	width: 300px;
+}
+
+.overplay {
+	position: absolute;
+	top: 0; 
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .4s ease;
+	background-color: #191716;
+	border-radius: 25px 25px 25px 25px;
+}
+
+.ImageContainer:hover .overplay{
+	opacity: 0.7;
+}
+
+.icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 1 !important;
+	font-size: 50px;
+	color: white;
+}
