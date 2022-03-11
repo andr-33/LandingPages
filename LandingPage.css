@@ -9,6 +9,14 @@ body{
     width: 100%!important; 
 }
 
+.p-t{
+	padding-top: 1rem;
+}
+
+.p-b{
+	padding-bottom: 1rem;
+}
+
 #StyleLogoArea{
 	background-color: #3A0CA3;
 	color: white;
@@ -53,6 +61,14 @@ body{
 	border-radius: 20px 20px 0px 0px;
 	color: white;
 }
+
+.CardStyleDown{
+	background-color: #191716;
+	width: 50%;
+	border-radius: 0px 0px 20px 20px;
+	color: white;
+}
+
 
 a,p{
 	font-family: 'Lato', sans-serif;
