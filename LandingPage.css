@@ -56,14 +56,14 @@ body{
 }
 
 .CardStyleUp{
-	background-color: #191716;
+	background-color: #5B8266;
 	width: 50%;
 	border-radius: 20px 20px 0px 0px;
 	color: white;
 }
 
 .CardStyleDown{
-	background-color: #191716;
+	background-color: #FF7F11;
 	width: 50%;
 	border-radius: 0px 0px 20px 20px;
 	color: white;
